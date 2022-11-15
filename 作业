@@ -68,3 +68,9 @@ print(A==B)
 [[ True False False]
  [False  True False]
  [False False  True]]
+
+
+import numpy as np
+a=np.sign(np.array([-3,0,5]))
+print(a)
+[-1  0  1]
