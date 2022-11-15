@@ -1,0 +1,19 @@
+#Code for signed distance!
+import numpy as np
+# x is dimension d by 1
+# th is dimension d by 1
+# th0 is a scalar
+# return 1 by 1 matrix of signed distance
+a=np.matrix([[1,2,3],[4,5,6],[7,8,9]])
+c=a.T
+print(c)
+
+
+#作业1.2，答案，编写距离
+import numpy as np
+# x is dimension d by 1
+# th is dimension d by 1
+# th0 is a scalar
+# return 1 by 1 matrix of signed distance
+def signed_dist(x, th, th0):
+   return ((th.T@x) + th0) / length(th)
